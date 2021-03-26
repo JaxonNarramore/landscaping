@@ -11,8 +11,8 @@ export default function Home() {
         <div>
             <Nav />
             <Header />
-            <About />
             <Services />
+            <About />
             <WCU />
             <Contact />
         </div>

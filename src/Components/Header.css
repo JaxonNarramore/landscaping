@@ -1,0 +1,12 @@
+.carousel {
+    height: 100vh;
+    z-index: -1;
+    margin-top: -100px;
+}
+
+.header-txt {
+    font-size: 5.5vw;
+    text-align: center;
+    color: white;
+    top: 50px;
+}

@@ -27,7 +27,7 @@ function Navbar() {
             <nav class="navbar">
                 <div class="navbar-container">
                     <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='navbar-logo' onClick={closeMobileMenu}>
-                        A-Z Landscape & Maintenance, LLC
+                        <img className='logo' src="Images/logo3.png" alt="A-Z Landscape & Maintenance, LLC" />
                     </Link>
                     <div class="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
