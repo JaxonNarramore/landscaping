@@ -6,7 +6,14 @@ export default function Header() {
     return (
         <div>
             <div className='txt-div'>
-                <p className='header-txt'>A-Z Landscape & Maintenance, LLC</p>
+                <p className='header-txt'>A-Z LANDSCAPE</p>
+                <p className='header-txt'></p>
+                <p className='header-txt'>& MAINTENENCE</p>
+                <p className='sub-header'>AUSTIN AREA COMMERCIAL AND RESIDENTIAL LANDSCAPING</p>
+                <div className='header-buttons'>
+                    <button type="button" class="btn btn-outline-light">Get a Quote</button>
+                    <button type="button" class="btn btn-outline-light">Our Services</button>
+                </div>
             </div>
             <Carousel controls={false} fade={true} className='carousel'>
                 <Carousel.Item interval={2000}>

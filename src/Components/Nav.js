@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './Nav.css'
 import { Link, animateScroll as scroll } from "react-scroll";
+import GAQ from './GAQ'
 
 function Navbar() {
     const [click, setClick] = useState(false)
@@ -54,7 +55,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {/* {button && <ResumeLink>Resume</ResumeLink>} */}
+                    {button && <GAQ>Resume</GAQ>}
                 </div>
             </nav>
         </div>
