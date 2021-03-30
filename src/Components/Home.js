@@ -1,6 +1,5 @@
 import React from 'react'
 import Contact from './Contact.js'
-import About from './About.js'
 import Header from './Header.js'
 import Nav from './Nav.js'
 import Services from './Services.js'
@@ -12,7 +11,6 @@ export default function Home() {
             <Nav />
             <Header />
             <Services />
-            <About />
             <WCU />
             <Contact />
         </div>

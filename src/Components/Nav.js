@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import './Nav.css'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-router-dom";
+import * as Scroll from 'react-scroll';
 import GAQ from './GAQ'
+let ScrollLink = Scroll.Link;
 
 function Navbar() {
     const [click, setClick] = useState(false)
@@ -35,7 +37,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 About
                             </Link>
                         </li>
@@ -50,9 +52,9 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='contact' activeClass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <ScrollLink to='contact' activeClass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Contact
-                            </Link>
+                            </ScrollLink>
                         </li>
                     </ul>
                     {button && <GAQ>Resume</GAQ>}
