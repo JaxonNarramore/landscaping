@@ -1,7 +1,7 @@
 import React from 'react'
-import './Services.css'
+import './ServicesHome.css'
 
-export default function Services() {
+export default function ServicesHome() {
     return (
         <div className='service-container'>
             <p className='os'>OUR SERVICES</p>
@@ -15,11 +15,11 @@ export default function Services() {
                 <img className='services-image' src="Images/landscape.jpg" alt="" />
             </div>
             <div className='hardscapes'>
-                <img className='services-image-h' src="Images/landscape.jpg" alt="" />
+                <img className='services-image-h' src="Images/hardscape.jpeg" alt="" />
                 <div>
                     <h1 className='services-title'>HARDSCAPES</h1>
                     <p className='services-subtitle'>BUILT TO LAST</p>
-                    <p className='services-div'>Custom hardscapes can allow you to expand your entertainment space outdoors. We specialize in custom hardscape design and installations. Whether you’re interested in a patio, fire pit, retaining/seating walls, or walkway we can get it done for you! </p>
+                    <p className='services-div'>Custom hardscapes can allow you to expand your entertainment space outdoors. We specialize in custom hardscape design and installations.</p>
                     <p className='learn-more'>LEARN MORE</p>
                 </div>
             </div>
@@ -30,7 +30,10 @@ export default function Services() {
                     <p className='services-div'>We offer maintenance packages that keep your property looking fresh and clean</p>
                     <p className='learn-more'>LEARN MORE</p>
                 </div>
-                <img className='services-image' src="Images/landscape.jpg" alt="" />
+                <img className='services-image' src="Images/lawncare.jpeg" alt="" />
+            </div>
+            <div className='ms-container'>
+                <button id='more-services' type="button" class="btn btn-outline-dark">More Services</button>
             </div>
         </div>
     )

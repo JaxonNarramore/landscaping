@@ -2,7 +2,7 @@ import React from 'react'
 import Contact from './Contact.js'
 import Header from './Header.js'
 import Nav from './Nav.js'
-import Services from './Services.js'
+import ServicesHome from './ServicesHome.js'
 import WCU from './WCU.js'
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <div>
             <Nav />
             <Header />
-            <Services />
+            <ServicesHome />
             <WCU />
             <Contact />
         </div>
