@@ -1,12 +1,11 @@
 .service-container {
-    height: 1009px;
     z-index: 1;
     background-color: white;
 }
 
 .os {
     text-align: center;
-    font-size: 60px;
+    font-size: 55px;
     padding-top: 50px;
 }
 
