@@ -11,11 +11,11 @@ export default function Header() {
                 <p className='header-txt'>& MAINTENENCE</p>
                 <p className='sub-header'>AUSTIN AREA COMMERCIAL AND RESIDENTIAL LANDSCAPING</p>
                 <div className='header-buttons'>
-                    <button type="button" class="btn btn-outline-light">Get a Quote</button>
+                    <button type="button" class="btn btn-outline-light">Get A Quote</button>
                     <button type="button" class="btn btn-outline-light">Our Services</button>
                 </div>
             </div>
-            <Carousel controls={false} fade={true} className='carousel'>
+            <Carousel controls={false} fade={true} className='carousel' indicators={false}>
                 <Carousel.Item interval={2000}>
                     <img
                         className="d-block w-100 carousel-image"

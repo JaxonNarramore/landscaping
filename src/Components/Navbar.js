@@ -3,6 +3,8 @@ import './Nav.css'
 import { Link } from "react-router-dom";
 import * as Scroll from 'react-scroll';
 import GAQ from './GAQ'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import Nav from 'react-bootstrap/Nav'
 let ScrollLink = Scroll.Link;
 
 function Navbar() {
@@ -41,10 +43,24 @@ function Navbar() {
                                 About
                             </Link>
                         </li>
-                        <li className='nav-item'>
-                            <Link to='skills' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
-                                Services
-                            </Link>
+                        <li className='nav-drop-li'>
+                            <Nav id='drop-nav' variant="tabs" className='nav-links'>
+                                <NavDropdown title="Services" id="nav-dropdown">
+                                    <NavDropdown.Item><Link to='/landscaping'>Landscaping</Link></NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item><Link to='/hardscaping'>Hardscaping</Link></NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item><Link to='/outdoorliving'>Outdoor Living</Link></NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item><Link to='/masonry'>Masonry & Stone</Link></NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item><Link to='/maintenence'>Maintenence</Link></NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item><Link to='/irrigation'>Irrigation</Link></NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item><Link to='/excavation'>Excavation</Link></NavDropdown.Item>
+                                </NavDropdown>
+                            </Nav>
                         </li>
                         <li className='nav-item'>
                             <Link to='projects' activeClass="active" spy={true} smooth={true} offset={-40} duration={100} className='nav-links' onClick={closeMobileMenu}>
@@ -57,11 +73,11 @@ function Navbar() {
                             </ScrollLink>
                         </li>
                     </ul>
-                    {button && <GAQ>Resume</GAQ>}
+                    {/* {button && <GAQ>Resume</GAQ>} */}
+                    <p>512-888-8888</p>
                 </div>
             </nav>
         </div>
     );
 }
-
 export default Navbar;
