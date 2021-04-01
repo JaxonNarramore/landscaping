@@ -1,4 +1,51 @@
 .carousel {
+    height: 101vh;
+    z-index: -1;
+    margin-top: -510px;
+}
+
+.carousel-image {
+    filter: brightness(50%);
+}
+
+.header-txt {
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    bottom: -100px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.txt-div {
+    display: flex;
+    flex-direction: column;
+    line-height: 100px;
+    padding-right: 450px;
+}
+
+.sub-header {
+    position: relative;
+    font-size: 27px;
+    color: white;
+    bottom: -100px;
+    text-align: center;
+}
+
+.header-buttons {
+    display: flex;
+    position: relative;
+    bottom: -100px;
+    justify-content: center;
+}
+
+.header-buttons > button {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+/* .carousel {
     height: 100vh;
     z-index: -1;
     margin-top: -510px;
@@ -43,4 +90,4 @@
     margin-left: 20px;
     margin-right: 20px;
     font-size: 22px;
-}
+} */
