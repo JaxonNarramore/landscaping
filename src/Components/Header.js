@@ -42,9 +42,9 @@ export default function Header() {
             </div>
             <div class="header-wordz">
                 <div className='txt-div'>
-                    <p className='header-txt'>AUDIO VISUAL</p>
-                    <p className='header-txt'>PROFESSIONALS</p>
-                    <p className='sub-header'>AUSTIN AREA PREMIUM AUDIO VISUAL INSTALLATION SERVICES</p>
+                    <p className='header-txt'>A-Z LANDSCAPE</p>
+                    <p className='header-txt'>& MAINTENENCE</p>
+                    <p className='sub-header'>AUSTIN AREA COMMERCIAL AND RESIDENTIAL LANDSCAPING</p>
                     <div className='header-buttons'>
                         <button type="button" class="btn btn-outline-light">Get A Quote</button>
                         <button type="button" class="btn btn-outline-light">Our Services</button>

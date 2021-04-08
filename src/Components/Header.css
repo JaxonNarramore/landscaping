@@ -14,7 +14,6 @@
   }
 
 .carousel {
-    /* z-index: 1; */
     top: 90px;
 }
 
@@ -51,7 +50,7 @@
 .header-buttons {
     display: flex;
     position: relative;
-    bottom: -150px;
+    bottom: -100px;
     justify-content: center;
     z-index: 2;
 }
@@ -85,7 +84,7 @@
 }
 
 .quote-div {
-    margin-top: -300px;
+    margin-top: -310px;
 }
 
 @media screen and (max-width: 1442px) {

@@ -18,7 +18,7 @@ export default function Quote() {
 
     return (
         <div className='quote-div'>
-            <h3 className='rasdq'>Request A Same Day Quote</h3>
+            <h3 className='rasdq'>Request A Free Quote</h3>
             <form className="quote-form" onSubmit={sendEmail}>
                 <div class="firstlast">
                     <div className='input-div'>
