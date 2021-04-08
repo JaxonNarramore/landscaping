@@ -49,10 +49,10 @@ export default function Quote() {
                     <input id='phone' className='input' type="number" name="phone" />
                 </div>
                 <div className='input-div'>
-                    <label>Description Of Work</label>
+                    <label className='description-label'>Description Of Work</label>
                     <textarea id='description' className='input' name="description" />
                 </div>
-                <input className='btn btn-outline-light' type="submit" value="Send" />
+                <input className='btn btn-outline-primary' type="submit" value="Send" />
             </form>
         </div>
     )
